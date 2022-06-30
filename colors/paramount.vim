@@ -50,7 +50,9 @@ let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 let s:background = &background
 
 if &background == "dark"
-  let s:bg              = s:black
+  " don't change the background from the default terminal background
+  let s:bg              = { "gui": "None", "cterm": "None" }
+
   let s:bg_subtle       = s:lighter_black
   let s:bg_very_subtle  = s:subtle_black
   let s:norm            = s:lighter_gray
