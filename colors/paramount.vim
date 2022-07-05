@@ -225,3 +225,7 @@ hi link GitGutterAdd                LineNr
 hi link GitGutterDelete             LineNr
 hi link GitGutterChange             LineNr
 hi link GitGutterChangeDelete       LineNr
+
+" diff
+call s:h("diffAdded",   {"bg": s:bg, "fg": s:green})
+call s:h("diffRemoved", {"bg": s:bg, "fg": s:red})
