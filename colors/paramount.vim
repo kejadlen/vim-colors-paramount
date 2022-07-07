@@ -229,3 +229,6 @@ hi link GitGutterChangeDelete       LineNr
 " diff
 call s:h("diffAdded",   {"bg": s:bg, "fg": s:green})
 call s:h("diffRemoved", {"bg": s:bg, "fg": s:red})
+
+" diagnostic
+call s:h("DiagnosticFloatingError",    {"fg": s:norm})
