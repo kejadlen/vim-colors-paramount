@@ -231,4 +231,5 @@ call s:h("diffAdded",   {"bg": s:bg, "fg": s:green})
 call s:h("diffRemoved", {"bg": s:bg, "fg": s:red})
 
 " diagnostic
-call s:h("DiagnosticFloatingError",    {"fg": s:norm})
+call s:h("FloatBorder",    {"fg": s:norm_subtle})
+call s:h("NormalFloat",    {"bg": s:bg})
