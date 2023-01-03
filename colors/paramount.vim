@@ -233,3 +233,6 @@ call s:h("diffRemoved", {"bg": s:bg, "fg": s:red})
 " diagnostic
 call s:h("FloatBorder",    {"fg": s:norm_subtle})
 call s:h("NormalFloat",    {"bg": s:bg})
+
+" treesitter
+" call s:h("pythonError",         {"fg": s:actual_white, "bg": s:bg, "cterm": "bold"})
