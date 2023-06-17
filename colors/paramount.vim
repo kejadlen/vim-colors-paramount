@@ -119,7 +119,7 @@ hi! link Exception        Statement
 
 call s:h("Operator",      {"fg": s:norm, "cterm": "bold", "gui": "bold"})
 
-call s:h("PreProc",     {"fg": s:norm_subtle})
+call s:h("PreProc",       {"fg": s:norm_subtle})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
@@ -237,3 +237,6 @@ call s:h("NormalFloat",    {"bg": s:bg})
 " treesitter
 " call s:h("pythonError",         {"fg": s:actual_white, "bg": s:bg, "cterm": "bold"})
 call s:h("TreesitterContext",    {"bg": s:bg_subtle})
+
+" indent-blankline
+call s:h("IndentBlanklineContextChar", {"fg": s:bg_subtle})
