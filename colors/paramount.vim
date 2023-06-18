@@ -239,4 +239,5 @@ call s:h("NormalFloat",    {"bg": s:bg})
 call s:h("TreesitterContext",    {"bg": s:bg_subtle})
 
 " indent-blankline
+" call s:h("IndentBlanklineChar",        {"fg": s:bg_very_subtle})
 call s:h("IndentBlanklineContextChar", {"fg": s:bg_subtle})
