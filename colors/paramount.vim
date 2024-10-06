@@ -47,6 +47,12 @@ let s:yellow          = { "gui": "#F3E430", "cterm": "11"  }
 let s:light_yellow    = { "gui": "#ffff87", "cterm": "228"   }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 
+" catppuccin color overrides (TODO: set these to get colors
+" directly from the terminal instead of hardcoding them)
+let s:medium_gray     = { "gui": "#6e6c7c", "cterm": "243" }
+let s:light_green     = { "gui": "#abe9b3", "cterm": "10"  }
+let s:light_purple    = { "gui": "#ddb6f2", "cterm": "140" }
+
 let s:background = &background
 
 if &background == "dark"
