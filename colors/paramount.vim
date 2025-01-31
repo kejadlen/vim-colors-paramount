@@ -20,14 +20,14 @@ endif
 let g:colors_name='paramount'
 
 let s:black           = { "gui": "#000000", "cterm": "232" }
-let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
+let s:medium_gray     = { "gui": "#8e8e8e", "cterm": "243" }
 let s:white           = { "gui": "#F1F1F1", "cterm": "15"  }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231" }
 let s:subtle_black    = { "gui": "#303030", "cterm": "236" }
 let s:light_black     = { "gui": "#262626", "cterm": "235" }
 let s:lighter_black   = { "gui": "#4E4E4E", "cterm": "239" }
-let s:light_gray      = { "gui": "#A8A8A8", "cterm": "248" }
-let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
+let s:light_gray      = { "gui": "#b8b8b8", "cterm": "248" }
+let s:lighter_gray    = { "gui": "#d6d6d6", "cterm": "251" }
 let s:lightest_gray   = { "gui": "#EEEEEE", "cterm": "255" }
 let s:pink            = { "gui": "#fb007a", "cterm": "9"   }
 let s:dark_red        = { "gui": "#C30771", "cterm": "1"   }
@@ -49,7 +49,7 @@ let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 
 " catppuccin color overrides (TODO: set these to get colors
 " directly from the terminal instead of hardcoding them)
-let s:medium_gray     = { "gui": "#6e6c7c", "cterm": "243" }
+let s:medium_gray     = { "gui": "#8e8e8e", "cterm": "243" }
 let s:light_green     = { "gui": "#abe9b3", "cterm": "10"  }
 let s:light_purple    = { "gui": "#ddb6f2", "cterm": "140" }
 
@@ -103,7 +103,7 @@ if &background != s:background
 endif
 
 call s:h("Cursor",        {"bg": s:purple, "fg": s:norm })
-call s:h("Comment",       {"fg": { "gui": "#656565", "cterm": "238" }, "gui": "italic"})
+call s:h("Comment",       {"fg": { "gui": "#808080", "cterm": "244" }, "gui": "italic"})
 
 call s:h("Constant",      {"fg": s:purple})
 hi! link Character        Constant
