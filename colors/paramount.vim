@@ -242,7 +242,7 @@ call s:h("NormalFloat",    {"bg": s:bg})
 
 " treesitter
 " call s:h("pythonError",         {"fg": s:actual_white, "bg": s:bg, "cterm": "bold"})
-call s:h("TreesitterContext",    {"bg": s:bg_subtle})
+call s:h("TreesitterContext",    {"bg": s:light_black})
 
 " indent-blankline
 hi link IblIndent LineNr
