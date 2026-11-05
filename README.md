@@ -1,3 +1,9 @@
+> [!NOTE]
+> This is an archive of my fork of
+> [owickstrom/vim-colors-paramount](https://github.com/owickstrom/vim-colors-paramount).
+> It added Neovim highlight groups and plugin support through May 2025,
+> until I replaced it with my own colorscheme.
+
 # Paramount
 
 A minimal colorscheme for Vim that only puts emphasis on the paramount.
